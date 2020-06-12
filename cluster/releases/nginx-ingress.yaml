@@ -5,7 +5,6 @@ metadata:
   namespace: ingress-nginx
   annotations:
     fluxcd.io/ignore: "false"
-    plop: plop
 spec:
   releaseName: nginx-ingress
   chart:
